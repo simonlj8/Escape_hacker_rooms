@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 
 .top {
+    margin: 0;
+    padding: 10px;
    
-    
+   
     color: white;
     background-color: #011827;
 }
-
+.esc {
+    width: 150px;
+    height: 120px;
+    
+}
 header h1 {
         
         font-size: 70px;
@@ -25,10 +34,12 @@ nav ul{
 
 nav ul li{
     list-style-type: none;
+    font-style: roboto;
 }
 
-.hero img{
-    
+.hero > img{
+    width: 100%;
+    height: 700px;
 }
 
 .btns {
@@ -37,6 +48,10 @@ nav ul li{
     justify-content: center;
     
 }
+
+
+
+
 #btn1{
     font-size: x-large;
     background-color: #E3170A;
@@ -60,18 +75,25 @@ nav ul li{
 .quotes{
     display: flex;
     justify-content: space-around;
-    font-size: large;
+    
     
     }
 
  .quotes > div {
-    width: 300px;
+    width: 400px;
     height: 300px;
+    font-family: 'Roboto';
  }   
  .quotes > cite {
     
  }
+
+ #h1a{
+     text-align: center;
+ }
 .card{
+    display: flex;
+    justify-content: space-around;
   
 
 }
@@ -108,21 +130,40 @@ text-align: center;
 
 #card3 {
    
-width: 363px;
-height: 446px;
-left: 863px;
-top: 1203px;
+    width: 363px;
+    height: 446px;
+    left: 863px;
+    top: 1203px;
 
-background: #FFFFFF;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
 }
 
-#b1 {
 
+.b1b2 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#b1 {
+    font-size: x-large;
+    background-color: #E3170A;
+    color:white;
+   /* transform: translateY(-25px);*/
+    top: -30px;
+    width: 300px;
+    height: 50px;
+    
 }
 #b2 {
-
+    font-size: x-large;
+    background-color: #8ACFE6;
+    color: white;
+    /*transform:translateY(25px);*/
+    position: relative;
+    width: 300px;
+    height: 50px;
 }
 
 
@@ -133,6 +174,8 @@ border-radius: 8px;
     background-color: #011827;
     color: white;
     text-align: center;
+    width: 100%;
+    height: 500px;
     
 
     
