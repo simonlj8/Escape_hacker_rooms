@@ -80,12 +80,26 @@ nav ul li{
     }
 
  .quotes > div {
+     
     width: 400px;
     height: 300px;
-    font-family: 'Roboto';
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+color: #000000;
  }   
  .quotes > cite {
-    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+color: #000000;
+
  }
 
  #h1a{
@@ -170,28 +184,30 @@ text-align: center;
 
 
 
-.story{
+.story {
     background-color: #011827;
     color: white;
     text-align: center;
     width: 100%;
     height: 500px;
-    
+    align-items: center;
 
     
   
 }
 
 .story > p {
-    
-   width: 600px;
-   height: auto;
+    height: auto;
+    width: 200px;
+    font-size: 28px;
     
   
 }
 
 .story > button{
-    
+    border: 2px solid #8ACFE6;
+    box-sizing: border-box;
+    border-radius: 4px;
     width: 300px;
     height: 60px;
     background-color: blue;
@@ -207,12 +223,10 @@ text-align: center;
 }
 
 #square1 {
-    grid-column: 1 / 2;  
+   
     
 }
-#square1 > img {
-    justify-content: start;
-}
+
 
 #square2 {
     
