@@ -11,42 +11,39 @@
 </head>
 <body>
     <section class="top">
-    <header>
-        <h1><img class="esc" src="img/esc.png"> Escape hacker rooms</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li>Play online</li>
-            <li>Play on-site</li>
-            <li>The story</li>
-            <li id="contact">Contact us</li>
-        </ul>
-    </nav>
-</section>
+        <header>
+            <h1><img class="esc" src="img/esc.png"> Escape hacker rooms</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>Play online</li>
+                <li>Play on-site</li>
+                <li>The story</li>
+                <li id="contact">Contact us</li>
+            </ul>
+        </nav>
+    </section>
     <main class="hero">
-        
         <img src="img/image2.png">
-        
     </div> 
     </main>
     <div class="btns">
     <button id="btn1">Online Challenges</button>
         <button id="btn2">On-site challenges</button>
         </div>
-        <section class="quotes">
+        <figure class="quotes">
             <div>
-        <blockquote><img src="img/jdoe.png">This is a quote about how amazing this place is and how much fun
-            me and my friends had when we tried it <cite>John Doe, visited us in september 2021</cite>
+        <blockquote><img class="doe" src="img/jdoe.png">This is a quote about how amazing this place is and how much fun
+            me and my friends had when we tried it <figcaption><cite>John Doe, visited us in september 2021</cite></figcaption>
         </blockquote></div>
        
     
         <div>
-        <blockquote><img src="img/jdoe.png">This is a quote about how amazing this place is and how much fun
+        <blockquote><img class ="doe" src="img/jdoe.png">This is a quote about how amazing this place is and how much fun
             me and my friends had when we tried it <cite>John Doe, visited us in september 2021</cite>
         </blockquote>
     </div>
-</section>
+        </figure>
 
 <h1 id="h1a">Popular challenges right now</h1>
     <section class="card">
@@ -71,28 +68,40 @@
         <button id="b2">All on-site challenges</button>
     </section>
     <div class="story">
-        <p>Quodsi habarent magnalia inter poteninam et divitas, et non illam
-            quidem haec eo spectant haec quaque vos omnino desit illud quo solo
-            felicitatis libertatisque perficiuntur.
-        </p>
-        <button>Read the full story</button>
+        <div class="story-container-parent">
+        <div class="story-container">
+                <p>Quodsi habarent magnalia inter poteninam et divitas, et non illam
+                    quidem haec eo spectant haec quaque vos omnino desit illud quo solo
+                    felicitatis libertatisque perficiuntur.
+                </p>
+            </div>
+        </div>
+        <div>
+            <button class="story-button">Read the full story</button>
+        </div>
     </div>
 
-    <div class="grid">
-        <div id="square1"><img src="img/pic1.png"></div>
-        <div id="square2"><p id="p1">Play with your friends or build your team stronger at work</p>
+
+    
+
+
+  
+    <div class="flex-container">
+        <div class="square1"><img src="img/pic1.png"></div>
+        <div class="square1"><p id="p1">Play with your friends or build your team stronger at work</p>
                 <p id="p2">Tanta petere igitur, ne sineres memini fieri etiam
                 aliquam inclinationem ad consequendum minima.
                 Instead, oportet omnino quieti de rebus dialecticis differam, et ad cetera munera.</p>
             <button class="gridbtn">Book on-site today</button></div>
-        <div id="square3">Play online or visitmour benue for one of our 25 escape rooms
-            Praeterea ex culpa non invenies unum aut non accusatis unum.
-            Et nihil inuitam. Nemo nocere tibi erit, et non inimicos, et<button class="gridbtn">See all the challenges</button> </div>
-        <div id="square4"><img src="img/kelly.png"></div>
-
-
+        
     </div>
-   
+    <div class="flex-container2">
+        <div class="square2"><p id="p3">Play online or visitmour benue for one of our 25 escape rooms</p>
+            <p id="p4">Praeterea ex culpa non invenies unum aut non accusatis unum.
+            Et nihil inuitam. Nemo nocere tibi erit, et non inimicos, et</p><button class="gridbtn">See all the challenges</button> </div>
+        <div class="square2"><img src="img/kelly.png"></div>
+    </div>
+
     <!--<section class="grid">
         <div id="square1"><img src="">Square1</div>
         <div id="square2"><h3>Play with your friends or build your team stronger at work</h3>
@@ -109,11 +118,14 @@
 
     <div class="footcontainer">
     <footer>
+        <div></div>
         <p>[Esc] Hacker Escape Rooms</p>
+        <div>
         <p>Quodsi haberent magnalia inter potentiam et divitias, et non illam quidem haec eo spectant haec
             quoque vos omnino desit illud quo solo felicitatis libertatisque perficiuntur.
         </p>
-        <ul>Site map</ul>
+    </div>
+        <ul class="lista">Site map</ul>
         <li></li>
         <li></li>
         <li></li>
