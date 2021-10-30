@@ -50,11 +50,8 @@ nav ul li{
     color: #FFFFFF;
     list-style-type: none;
 }
-#contact {
-    
-    
+nav ul li:hover {
     color: #8ACFE5;
-    
 }
 
 .hero > img{
@@ -85,7 +82,7 @@ nav ul li{
     height: 80px;
     border-radius: 4px;
     margin-bottom: 10px;
-    font-family: Roboto;
+    
     border: 0;
     font-weight: bold;
     font-size: 24px;
@@ -104,7 +101,7 @@ nav ul li{
     height: 80px;
     border: 0;
     border-radius: 4px;
-    font-family: Roboto;
+    
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -114,13 +111,29 @@ nav ul li{
     color: #011827;
 }
 
+.quotes-container {
 
-.quotes{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+
+.quotes1{
+    
+    width: 800px;
+    
     
     
     }
+
+    .quotes2{
+        width: 800px;
+        
+        
+        
+        }
 
 .doe {
     float: left;
@@ -185,23 +198,30 @@ cite {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    
+    margin: 15px;
     color: #000000;
 }
 
 .card-text {
+    margin: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
 
+    color: #000000;
 }
 
 .bookbtn {
-    display: flex;
+    display: flex;    
     color: white;    
-    text-align: center;
-    transform: translateX(400px);
+    text-align: center; 
+   
     height: 44px;
     width: 180px;
     background: #E3170A;
     border-radius: 4px;
+    justify-content: center;
     
     
     
@@ -226,7 +246,9 @@ cite {
 
 }
 .star {
-    transform: translateY(80px);
+    display: flex;
+    flex-direction: row;
+    
 
 
 }
@@ -356,8 +378,10 @@ cite {
 }
 
 .square1-text {
+   
     flex: 50%;
     justify-content: center;
+    
 }
 
 
@@ -373,7 +397,7 @@ cite {
     
 }
 .square2-text {
-
+    display:flex;
     flex: 50%;
     justify-content: center;
 }
@@ -386,6 +410,7 @@ cite {
 .flexbtn {
     display: flex;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .flexbtn button {
@@ -398,7 +423,8 @@ cite {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
+    
+    
     
     
     
@@ -409,10 +435,13 @@ cite {
 .flexbtn a {
     color: white;
     text-decoration: none;
+    
 }
 
 
 .big-text {
+    
+    
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -426,7 +455,7 @@ cite {
 }
 
 .small-text {
-    
+   
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -602,14 +631,30 @@ footer li {
     }
     
     
+    .quotes-container {
 
-    .quotes{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        justify-content: space-around;
+        
+    }
+    
+    
+    .quotes1{
+        
+        width: 800px;
+        
         
         
         }
     
+        .quotes2{
+            display: none;
+            width: 800px;
+            
+            
+            
+            }
     .doe {
         float: left;
         border-radius: 873px;
@@ -619,7 +664,7 @@ footer li {
         
     }
     
-     .quotes > div {
+     .quotes1 > div {
         flex: 50%;
         width: 600px;
         height: 300px;
@@ -630,6 +675,17 @@ footer li {
         color: #000000;
      }   
     
+     .quotes2 > div {
+        flex: 50%;
+        width: 600px;
+        height: 300px;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+     }   
+
      .jdoe-quote {
          padding: 20px;
          justify-content: center;
@@ -646,11 +702,11 @@ footer li {
      }
     
      .h1a{
-        
+  
         font-style: normal;
         font-weight: normal;
-        font-size: 36px;
-        line-height: 42px;
+        font-size: 32px;
+        line-height: 37px;
         text-align: center;
         padding: 50px;
         color : #000000;
