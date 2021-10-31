@@ -708,7 +708,7 @@ html{
     
     .quotes1{
         
-        width: 800px;
+       display: flex;
         
         
         
@@ -732,7 +732,7 @@ html{
     }
     
      .quotes1 > div {
-        flex: 50%;
+        
         width: 480px;
         height: 100px;
         font-style: italic;
@@ -742,26 +742,17 @@ html{
         color: #000000;
      }   
     
-     .quotes2 > div {
-        flex: 50%;
-        width: 600px;
-        height: 300px;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 28px;
-        color: #000000;
-     }   
+
 
      .jdoe-quote {
          padding: 20px;
-         justify-content: center;
-         width: 200px;
+         
+         width: 300px;
          
      }
     cite {
         
-        padding:20px;
+        padding: 10px;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
@@ -800,9 +791,7 @@ html{
         color: #000000;
     }
     
-    .card-text {
-    
-    }
+  
 
     .card-button {
         display: flex;
@@ -895,7 +884,7 @@ html{
         font-size: x-large;
         background-color: #8ACFE6;
         color: black;
-        /*transform: translateX(600px);*/
+       
         
         width: 300px;
         height: 100px;
@@ -926,9 +915,8 @@ html{
     }
     .story-container {
         width: 600px;
-        border: 1px solid #999;
-         font-size: 28px;
         
+        font-size: 28px;        
         font-style: normal;
         font-weight: normal;
         font-size: 28px;
@@ -967,21 +955,21 @@ html{
         display: flex;
         gap: 55px;
         flex-direction: column;
-        margin: 10px;
-        
-        
+        margin: 10px;       
         
     }
     
  
     
     .square-img {
-        width: 480px;
+      
+
+        width: 340px;
         height: 300px;
     }
     
     .square1-text {
-        width: 480px;
+        width: 340px;
         height: auto;
        
     }
@@ -990,24 +978,29 @@ html{
     .flex-container2 {
     
         display: flex;
-        height: auto;
-       flex-direction: column-reverse;
+        width: 340px;
+        
+        flex-direction: column-reverse;
+       
     }
     
     .square2 {
-        flex:50%;
-        justify-content: baseline;
+        
+        justify-content: center;
+        gap: 35px;
+       
         
     }
     .square2-text {
-        width: 480px;
+        width: 340px;
         height: auto;
-        display: flex;
+       
+        
         
         
     }
     .square2-img {
-        width: 480px;
+        
         height: auto;
         
     }
@@ -1015,13 +1008,13 @@ html{
     .flexbtn1 {
         display: flex;
         justify-content: baseline;
-        align-items: center;
+        
     }
     
     .flexbtn1 button {
         display: flex;
-        width: 450px;
-        height: 100px;
+        width: 300px;
+        height: 70px;
         background: #E3170A;
         border-radius: 4px;
         font-style: normal;
@@ -1044,13 +1037,14 @@ html{
     .flexbtn2 {
         display: flex;
         justify-content: baseline;
-        align-items: center;
+        
     }
     
     .flexbtn2 button {
         display: flex;
-        width: 450px;
-        height: 100px;
+
+        width: 300px;
+        height: 70px;
         background: #E3170A;
         border-radius: 4px;
         font-style: normal;
@@ -1060,7 +1054,7 @@ html{
         text-align: center;
         flex-direction: column;
         justify-content: baseline;
-        flex-direction: column;                
+                      
     }
     
     .flexbtn2 a {
@@ -1078,8 +1072,10 @@ html{
         line-height: 37px;
         text-align: center;
         color: #000000;
-        margin: 50px;
-        width: 500px;
+        
+        width: 340px;
+        
+       
         
     
     }
@@ -1089,10 +1085,10 @@ html{
         font-weight: normal;
         font-size: 24px;
         line-height: 28px;
-        text-align: center;
+        
         color: #000000;
-        margin: 50px;
-        width: 500px;
+        
+        width: 340px;
     
     }             
     
