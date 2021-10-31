@@ -394,10 +394,7 @@ cite {
     
 }
 .square2-text {
-    /*
-    display:block;
-    flex: 50%;
-    justify-content: center;*/
+   
     flex:50%;
     align-items: center;
     display: flex;
