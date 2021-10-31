@@ -327,7 +327,7 @@ cite {
 }
 .story-container {
     width: 600px;
-    border: 1px solid #999;
+    /*border: 1px solid #999;*/
     font-size: 28px;    
     font-style: normal;
     font-weight: normal;
