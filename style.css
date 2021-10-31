@@ -12,7 +12,6 @@
 a{
     text-decoration: none;
     color:inherit;
-
     display: block;
     width: 100%;
     line-height: 50px;
@@ -52,25 +51,25 @@ nav ul li{
     list-style-type: none;
 }
 nav ul li:hover {
+
     color: #8ACFE5;
 }
 
 .hero > img{
+
     width: 100%;
     height: 700px;
 }
 
 .btns {
+
     display: flex;   
     justify-content: center;
     gap: 15px;
     height: 65px;
     border-radius: 4px;
     
-    
 }
-
-
 
 
 #btn1{
@@ -82,14 +81,12 @@ nav ul li:hover {
     width: 300px;
     height: 80px;
     border-radius: 4px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;    
     border: 0;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-
     color: #011827;
 }
 #btn2{
@@ -101,14 +98,12 @@ nav ul li:hover {
     width: 300px;
     height: 80px;
     border: 0;
-    border-radius: 4px;
-    
+    border-radius: 4px;    
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-
     color: #011827;
 }
 
@@ -123,18 +118,15 @@ nav ul li:hover {
 
 .quotes1{
     
-    width: 800px;
-    
-    
-    
+    width: 800px;    
+        
     }
 
     .quotes2{
+
         width: 800px;
-        
-        
-        
-        }
+                        
+     }
 
 .doe {
     float: left;
@@ -188,10 +180,8 @@ cite {
     justify-content:space-evenly;
     align-items: center;
     align-content: space-around;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
   
-
 }
 .card > h1 {
     font-style: normal;
@@ -209,31 +199,26 @@ cite {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-
     color: #000000;
 }
 
 .card-button {
     display: flex;
     justify-content: right;
+    margin: 10px;
 }
 
 .bookbtn {
     display: flex;    
     color: white;    
-    text-align: center; 
-   
+    text-align: center;    
     height: 44px;
     width: 180px;
     background: #E3170A;
     border-radius: 4px;
     justify-content: center;
-    align-items: center;
-        
-    
-    
-    
-
+    align-items: center;     
+          
 }
 
 .hackerimg{
@@ -244,14 +229,11 @@ cite {
  
     
     width: 450px;
-    height: 560px;
-    
-    
+    height: 560px;   
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px 8px 0px 0px;;
     
-
 }
 .star {
     display: flex;
@@ -262,15 +244,14 @@ cite {
 .participant {
  display: flex;
  justify-content: flex-end;
- transform: translateY(-45px)
+ transform: translateY(-45px);
 
+    
 }
 .card2 {
    
     width: 450px;
     height: 560px;
-    
-
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px 8px 0px 0px;
@@ -280,8 +261,6 @@ cite {
    
     width: 450px;
     height: 560px;
-   
-
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px 8px 0px 0px;
@@ -291,29 +270,24 @@ cite {
 .b1b2 {
     display: flex;
     justify-content: center;
-    
     margin:25px;
     
 }
 #b1 {
     
     background-color: #E3170A;
-    color:white;
-    
+    color:white;    
     top: -30px;
     width: 400px;
     height: 100px;
     margin: 25px;
-
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
-
-
-    
+    text-align: center;    
 }
+
 #b2 {
     font-size: x-large;
     background-color: #8ACFE6;
@@ -321,14 +295,11 @@ cite {
     width: 400px;
     height: 100px;
     margin: 25px;
-
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-
-
 
 }
 
@@ -357,13 +328,11 @@ cite {
 .story-container {
     width: 600px;
     border: 1px solid #999;
-     font-size: 28px;
-    
+    font-size: 28px;    
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
-    line-height: 33px;
-    
+    line-height: 33px;    
     color: #FFFFFF;
 }
 
@@ -373,26 +342,20 @@ cite {
     font-size: 24px;
     line-height: 28px;
     text-align: center;
-    color: #8ACFE6;
-    
+    color: #8ACFE6;    
     border: 2px solid #8ACFE6;
     box-sizing: border-box;
     border-radius: 4px;
     width: 300px;
     height: 60px;
-    background-color: blue;
-  
+    background-color: blue;  
     background: #011827;
 }
 
-
-
-
-
-
-
 .flex-container {
     display: flex;
+    justify-content: center;
+    
     
 }
 
@@ -403,15 +366,21 @@ cite {
 
 .square-img {
     width: 100%;
-}
-
-.square1-text {
-   
-    flex: 50%;
-    justify-content: center;
     
 }
 
+.square1-text {
+   width: 100%;
+   flex: 50%;
+   
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
 
 .flex-container2 {
 
@@ -425,25 +394,31 @@ cite {
     
 }
 .square2-text {
-    display:flex;
+    /*
+    display:block;
     flex: 50%;
+    justify-content: center;*/
+    flex:50%;
+    align-items: center;
+    display: flex;
     justify-content: center;
+    
+    
 }
 .square2-img {
-      flex: 50%;
-       
+      flex: 50%;      
         
 }
 
 .flexbtn1 {
     display: flex;
     justify-content: center;
-    flex-grow: 1;
+    
 }
 
 .flexbtn1 button {
     display: flex;
-    width: 450px;
+    width: 550px;
     height: 100px;
     background: #E3170A;
     border-radius: 4px;
@@ -451,13 +426,8 @@ cite {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    
-    
-    
-    
-    
-    
-    
+    justify-content: baseline;   
+    margin: 5px;     
 }
 
 .flexbtn1 a {
@@ -465,10 +435,6 @@ cite {
     text-decoration: none;
     
 }
-
-
-/*-----------------------------------------------------------------*/
-
 
 .flexbtn2 {
     display: flex;
@@ -478,7 +444,7 @@ cite {
 
 .flexbtn2 button {
     display: flex;
-    width: 450px;
+    width: 550px;
     height: 100px;
     background: #E3170A;
     border-radius: 4px;
@@ -486,10 +452,10 @@ cite {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
-    flex-direction: column;
+    text-align: center;    
     justify-content: baseline;
-    flex-direction: column;                
+    
+                   
 }
 
 .flexbtn2 a {
@@ -497,22 +463,17 @@ cite {
     text-decoration: none;
 }
 
-.big-text {
-    
-    
+.big-text1 {    
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 45px;
     line-height: 37px;
     text-align: center;
-    color: #000000;
-    margin: 50px;
-    width: 500px;
-    
-
+    color: #000000;    
+    width: 500px;    
 }
 
-.small-text {
+.small-text1 {
    
     font-style: normal;
     font-weight: normal;
@@ -520,11 +481,34 @@ cite {
     line-height: 28px;
     text-align: center;
     color: #000000;
-    margin: 50px;
+    margin: 100px;
     width: 500px;
 
 }
 
+.big-text2 {    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin: 50px;
+    width: 600px;    
+}
+
+.small-text2 {
+   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin: 60px;
+    width: 500px;
+
+}
 
 
 footer {
@@ -549,27 +533,23 @@ footer li {
 }
 
 
-.lista{
-    
+.lista{    
     float: right;
     list-style-type: none;
-    
 }
 
 }
 
-/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 @media screen and (max-width:800px) {
 
 
 html{
-    max-width: 480px;
-    
+    max-width: 480px;    
 }  
   
-
     body {
         max-width: 480px;
         font-family: Roboto;
@@ -584,9 +564,8 @@ html{
            line-height: 50px;
        }
        .top {
-        display: flex;
-           margin: 0;
-            
+          display: flex;
+           margin: 0;            
            color: white;
            background-color: #011827;
            width: 100%;
@@ -639,31 +618,25 @@ html{
            
            color: #8ACFE5;
            
-       }
-       
+       }       
       
        .hero > img{
         width: 100%;
-        height: 260px;
-       
-        
+        height: 260px;      
         
     }
     
     .btns {
         display: flex;   
         flex-direction: column-reverse;
-        justify-content: center;
-        
+        justify-content: center;        
         height: 45px;
         border-radius: 4px;
         padding: 35px;
         
     }
-    
-    
-    
-    
+        
+       
     #btn1{
         
         text-decoration: underline;
@@ -679,19 +652,16 @@ html{
         
         background-color: #8ACFE5;
         color: black;
-        transform:translateY(55px);
-        
+        transform:translateY(55px);        
         width: 300px;
         height: 80px;
         border: 0;
-        border-radius: 4px;
-        
+        border-radius: 4px;        
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
         line-height: 28px;
-        text-align: center;
-        
+        text-align: center;        
         color: #011827;
     }
     
@@ -700,34 +670,27 @@ html{
 
         display: flex;
         justify-content: center;
-        justify-content: space-around;
-        
+        justify-content: space-around;        
         
     }
     
     
     .quotes1{
         
-       display: flex;
-        
-        
+       display: flex;                
         
         }
     
         .quotes2{
             display: none;
-            width: 800px;
-            
-            
-            
-            }
+            width: 800px;            
+         }
     .doe {
         float: left;
         border-radius: 873px;
         margin:10px;
         padding: 15px;
-        width: 50px;
-        
+        width: 50px;        
         
     }
     
@@ -745,10 +708,8 @@ html{
 
 
      .jdoe-quote {
-         padding: 20px;
-         
-         width: 300px;
-         
+         padding: 20px;         
+         width: 300px;         
      }
     cite {
         
@@ -767,8 +728,7 @@ html{
         font-weight: normal;
         font-size: 12px;
         line-height: 27px;
-        text-align: center;
-        
+        text-align: center;        
         color : #000000;
     
      }
@@ -786,8 +746,7 @@ html{
         font-weight: normal;
         font-size: 36px;
         line-height: 42px;
-        text-align: center;
-        
+        text-align: center;        
         color: #000000;
     }
     
@@ -809,9 +768,7 @@ html{
         background: #E3170A;
         border-radius: 4px;
         align-items: center;
-        justify-content: center;
-        
-        
+        justify-content: center;        
     
     }
     
@@ -819,17 +776,13 @@ html{
     
         width: 400px;
     }
-    .card1 {
-     
+    .card1 {     
         
         width: 400px;
-        height: 600px;
-        
-        
+        height: 600px;         
         background: #FFFFFF;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-        border-radius: 8px 8px 0px 0px;;
-        
+        border-radius: 8px 8px 0px 0px;        
     
     }
     .star {
@@ -841,9 +794,7 @@ html{
     .card2 {
        
         width: 400px;
-        height: 600px;
-        
-    
+        height: 600px;        
         background: #FFFFFF;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
         border-radius: 8px 8px 0px 0px;
@@ -852,9 +803,7 @@ html{
     .card3 {
        
         width: 400px;
-        height: 600px;
-       
-    
+        height: 600px;       
         background: #FFFFFF;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
         border-radius: 8px 8px 0px 0px;
@@ -865,15 +814,14 @@ html{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        margin:25px;
-        
+        margin:25px;        
     }
+
     #b1 {
         border: none;
-        font-size: 16px;
-        
-       background-color: white;
-       text-decoration: underline;
+        font-size: 16px;        
+        background-color: white;
+        text-decoration: underline;
         top: -30px;
         width: 300px;
         height: 100px;
@@ -883,17 +831,11 @@ html{
     #b2 {
         font-size: x-large;
         background-color: #8ACFE6;
-        color: black;
-       
-        
+        color: black;       
         width: 300px;
         height: 100px;
         margin: 25px;
-    }
-    
-    
-    
-    
+    }    
     
     .story {
         background-color: #011827;
@@ -914,14 +856,12 @@ html{
         
     }
     .story-container {
-        width: 600px;
-        
+        width: 600px;        
         font-size: 28px;        
         font-style: normal;
         font-weight: normal;
         font-size: 28px;
-        line-height: 33px;
-        
+        line-height: 33px;        
         color: #FFFFFF;
     }
     
@@ -931,24 +871,17 @@ html{
         font-size: 24px;
         line-height: 28px;
         text-align: center;
-        color: #8ACFE6;
-        
+        color: #8ACFE6;        
         border: 2px solid #8ACFE6;
         box-sizing: border-box;
         border-radius: 4px;
         width: 300px;
         height: 60px;
-        background-color: blue;
-      
+        background-color: blue;      
         background: #011827;
     }
-    
-    
-    
-    
-    
-    
-    
+             
+            
     .flex-container {
         
         height: 100%;
@@ -961,14 +894,14 @@ html{
     
  
     
-    .square-img {
-      
+    .square-img {      
 
         width: 340px;
         height: 300px;
     }
     
     .square1-text {
+
         width: 340px;
         height: auto;
        
@@ -978,8 +911,7 @@ html{
     .flex-container2 {
     
         display: flex;
-        width: 340px;
-        
+        width: 340px;        
         flex-direction: column-reverse;
        
     }
@@ -992,12 +924,10 @@ html{
         
     }
     .square2-text {
+
         width: 340px;
-        height: auto;
-       
-        
-        
-        
+        height: auto;       
+                        
     }
     .square2-img {
         
@@ -1042,7 +972,6 @@ html{
     
     .flexbtn2 button {
         display: flex;
-
         width: 300px;
         height: 70px;
         background: #E3170A;
@@ -1071,8 +1000,7 @@ html{
         font-size: 32px;
         line-height: 37px;
         text-align: center;
-        color: #000000;
-        
+        color: #000000;        
         width: 340px;
         
        
@@ -1084,10 +1012,8 @@ html{
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
-        line-height: 28px;
-        
-        color: #000000;
-        
+        line-height: 28px;        
+        color: #000000;        
         width: 340px;
     
     }             
@@ -1101,8 +1027,7 @@ html{
     }
     
     .esc-text{
-        width: 316px;
-    
+        width: 316px;    
     }
     footer ul {
         padding: 0;
