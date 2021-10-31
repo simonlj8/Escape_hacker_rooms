@@ -228,6 +228,8 @@ cite {
     background: #E3170A;
     border-radius: 4px;
     justify-content: center;
+    align-items: center;
+        
     
     
     
@@ -294,25 +296,40 @@ cite {
     
 }
 #b1 {
-    font-size: x-large;
+    
     background-color: #E3170A;
     color:white;
-    /*transform: translateX(600px);*/
+    
     top: -30px;
     width: 400px;
     height: 100px;
     margin: 25px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+
     
 }
 #b2 {
     font-size: x-large;
     background-color: #8ACFE6;
-    color: black;
-    /*transform: translateX(600px);*/
-    
+    color: black; 
     width: 400px;
     height: 100px;
     margin: 25px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+
+
 }
 
 
@@ -418,13 +435,13 @@ cite {
         
 }
 
-.flexbtn {
+.flexbtn1 {
     display: flex;
     justify-content: center;
     flex-grow: 1;
 }
 
-.flexbtn button {
+.flexbtn1 button {
     display: flex;
     width: 450px;
     height: 100px;
@@ -443,12 +460,42 @@ cite {
     
 }
 
-.flexbtn a {
+.flexbtn1 a {
     color: white;
     text-decoration: none;
     
 }
 
+
+/*-----------------------------------------------------------------*/
+
+
+.flexbtn2 {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.flexbtn2 button {
+    display: flex;
+    width: 450px;
+    height: 100px;
+    background: #E3170A;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: baseline;
+    flex-direction: column;                
+}
+
+.flexbtn2 a {
+    color: white;
+    text-decoration: none;
+}
 
 .big-text {
     
@@ -516,13 +563,17 @@ footer li {
 
 @media screen and (max-width:800px) {
 
-   
 
+html{
+    max-width: 480px;
+    
+}  
   
 
- body {
-        width: 100%;
+    body {
+        max-width: 480px;
         font-family: Roboto;
+        
        }
        
        a{
@@ -592,9 +643,9 @@ footer li {
        
       
        .hero > img{
-        width: 480px;
-        height: 274px;
-        left: 0px;
+        width: 100%;
+        height: 260px;
+       
         
         
     }
@@ -606,6 +657,7 @@ footer li {
         
         height: 45px;
         border-radius: 4px;
+        padding: 35px;
         
     }
     
@@ -620,6 +672,7 @@ footer li {
         font-weight: 700;
         border: 0;
         background-color: #FFFFFF;
+        margin: 55px;
         
     }
     #btn2{
@@ -673,14 +726,15 @@ footer li {
         border-radius: 873px;
         margin:10px;
         padding: 15px;
+        width: 50px;
         
         
     }
     
      .quotes1 > div {
         flex: 50%;
-        width: 600px;
-        height: 300px;
+        width: 480px;
+        height: 100px;
         font-style: italic;
         font-weight: normal;
         font-size: 24px;
@@ -702,6 +756,8 @@ footer li {
      .jdoe-quote {
          padding: 20px;
          justify-content: center;
+         width: 200px;
+         
      }
     cite {
         
@@ -714,7 +770,7 @@ footer li {
     
      }
     
-     h1{
+     .h1a{
   
         font-style: normal;
         font-weight: normal;
@@ -728,10 +784,8 @@ footer li {
     .card{
         display: flex;
         flex-direction: row;
-        justify-content:space-evenly;
-        align-items: center;
-        align-content: space-around;
-        flex-wrap: wrap;
+        overflow: scroll;
+        gap: 15px;
         
       
     
@@ -749,17 +803,24 @@ footer li {
     .card-text {
     
     }
+
+    .card-button {
+        display: flex;
+        justify-content: flex-end;
+        
+    }
     
     .bookbtn {
         display: flex;
         color: black;    
         text-align: center;
-        transform: translateX(400px);
+       color: white;
         height: 44px;
         width: 180px;
         background: #E3170A;
         border-radius: 4px;
-        
+        align-items: center;
+        justify-content: center;
         
         
     
@@ -767,13 +828,13 @@ footer li {
     
     .hackerimg{
     
-        width: 600px;
+        width: 400px;
     }
     .card1 {
      
         
-        width: 600px;
-        height: 650px;
+        width: 400px;
+        height: 600px;
         
         
         background: #FFFFFF;
@@ -783,14 +844,15 @@ footer li {
     
     }
     .star {
-        transform: translateY(80px);
+        display: inline-block;
+        flex-direction: column;
     
     
     }
     .card2 {
        
-        width: 600px;
-        height: 650px;
+        width: 400px;
+        height: 600px;
         
     
         background: #FFFFFF;
@@ -800,8 +862,8 @@ footer li {
     
     .card3 {
        
-        width: 600px;
-        height: 650px;
+        width: 400px;
+        height: 600px;
        
     
         background: #FFFFFF;
@@ -900,11 +962,13 @@ footer li {
     
     
     .flex-container {
-        width: 100%;
-        height: 500px;
+        
+        height: 100%;
         display: flex;
         gap: 55px;
         flex-direction: column;
+        margin: 10px;
+        
         
         
     }
@@ -918,7 +982,7 @@ footer li {
     
     .square1-text {
         width: 480px;
-        height: 300px;
+        height: auto;
        
     }
     
@@ -926,7 +990,8 @@ footer li {
     .flex-container2 {
     
         display: flex;
-       flex-direction: column;
+        height: auto;
+       flex-direction: column-reverse;
     }
     
     .square2 {
@@ -936,24 +1001,24 @@ footer li {
     }
     .square2-text {
         width: 480px;
-        height: 300px;
+        height: auto;
         display: flex;
         
         
     }
     .square2-img {
         width: 480px;
-        height: 300px;
+        height: auto;
         
     }
     
-    .flexbtn {
+    .flexbtn1 {
         display: flex;
         justify-content: baseline;
         align-items: center;
     }
     
-    .flexbtn button {
+    .flexbtn1 button {
         display: flex;
         width: 450px;
         height: 100px;
@@ -966,19 +1031,45 @@ footer li {
         text-align: center;
         flex-direction: column;
         justify-content: baseline;
-        flex-direction: column;
-        
-        
-        
-        
-        
+        flex-direction: column;                
     }
     
-    .flexbtn a {
+    .flexbtn1 a {
         color: white;
         text-decoration: none;
     }
     
+    /*----------------------------------------------------------------*/
+    
+    .flexbtn2 {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+    }
+    
+    .flexbtn2 button {
+        display: flex;
+        width: 450px;
+        height: 100px;
+        background: #E3170A;
+        border-radius: 4px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        flex-direction: column;
+        justify-content: baseline;
+        flex-direction: column;                
+    }
+    
+    .flexbtn2 a {
+        color: white;
+        text-decoration: none;
+    }
+
+
+
     
     .big-text {
         font-style: normal;
@@ -993,8 +1084,7 @@ footer li {
     
     }
     
-    .small-text {
-        
+    .small-text {        
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
@@ -1004,20 +1094,14 @@ footer li {
         margin: 50px;
         width: 500px;
     
-    }
-    
-    
-    
-    
+    }             
     
     footer {
-
         background-color: #011827;
         color: #ffffff;
         font-size: 18px;
         margin-top: 100px;
-        padding: 20px;
-                       
+        padding: 20px;                       
     }
     
     .esc-text{
