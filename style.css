@@ -11,7 +11,8 @@
 
 a{
     text-decoration: none;
-    color: inherit;
+    color:inherit;
+
     display: block;
     width: 100%;
     line-height: 50px;
@@ -75,7 +76,7 @@ nav ul li:hover {
 #btn1{
     font-size: x-large;
     background-color: #E3170A;
-    color:white;
+    color:white !important;
     transform: translateY(-45px);
     top: -30px;
     width: 300px;
@@ -212,6 +213,11 @@ cite {
     color: #000000;
 }
 
+.card-button {
+    display: flex;
+    justify-content: right;
+}
+
 .bookbtn {
     display: flex;    
     color: white;    
@@ -230,13 +236,13 @@ cite {
 
 .hackerimg{
 
-    width: 600px;
+    width: 450px;
 }
 .card1 {
  
     
-    width: 600px;
-    height: 650px;
+    width: 450px;
+    height: 560px;
     
     
     background: #FFFFFF;
@@ -247,15 +253,20 @@ cite {
 }
 .star {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;      
+}
 
+
+.participant {
+ display: flex;
+ justify-content: flex-end;
+ transform: translateY(-45px)
 
 }
 .card2 {
    
-    width: 600px;
-    height: 650px;
+    width: 450px;
+    height: 560px;
     
 
     background: #FFFFFF;
@@ -265,8 +276,8 @@ cite {
 
 .card3 {
    
-    width: 600px;
-    height: 650px;
+    width: 450px;
+    height: 560px;
    
 
     background: #FFFFFF;
@@ -296,7 +307,7 @@ cite {
 #b2 {
     font-size: x-large;
     background-color: #8ACFE6;
-    color: white;
+    color: black;
     /*transform: translateX(600px);*/
     
     width: 400px;
@@ -500,7 +511,7 @@ footer li {
 
 }
 
-/*--------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
 
 
 @media screen and (max-width:800px) {
@@ -541,7 +552,8 @@ footer li {
            flex-direction: row;
            max-width: 200px;
            text-align: center;
-           font-size: 24px;    
+           font-size: 24px; 
+           color:white;   
        }
 
        .esc {
@@ -583,18 +595,17 @@ footer li {
         width: 480px;
         height: 274px;
         left: 0px;
-        top: 144px;
+        
         
     }
     
     .btns {
         display: flex;   
-        justify-content: center;
-        gap: 15px;
-        height: 65px;
-        border-radius: 4px;
         flex-direction: column-reverse;
-        align-items: center;
+        justify-content: center;
+        
+        height: 45px;
+        border-radius: 4px;
         
     }
     
@@ -602,13 +613,14 @@ footer li {
     
     
     #btn1{
-       
+        
         text-decoration: underline;
         color: #011827;
         font-size: 16px;
         font-weight: 700;
         border: 0;
         background-color: #FFFFFF;
+        
     }
     #btn2{
         
@@ -620,13 +632,13 @@ footer li {
         height: 80px;
         border: 0;
         border-radius: 4px;
-        font-family: Roboto;
+        
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
         line-height: 28px;
         text-align: center;
-        margin: 10px;
+        
         color: #011827;
     }
     
@@ -636,6 +648,7 @@ footer li {
         display: flex;
         justify-content: center;
         justify-content: space-around;
+        
         
     }
     
@@ -701,14 +714,14 @@ footer li {
     
      }
     
-     .h1a{
+     h1{
   
         font-style: normal;
         font-weight: normal;
-        font-size: 32px;
-        line-height: 37px;
+        font-size: 12px;
+        line-height: 27px;
         text-align: center;
-        padding: 50px;
+        
         color : #000000;
     
      }
@@ -739,7 +752,7 @@ footer li {
     
     .bookbtn {
         display: flex;
-        color: white;    
+        color: black;    
         text-align: center;
         transform: translateX(400px);
         height: 44px;
@@ -799,18 +812,19 @@ footer li {
     
     .b1b2 {
         display: flex;
-        justify-content: center;
-        
+        flex-direction: column-reverse;
+        align-items: center;
         margin:25px;
         
     }
     #b1 {
-        font-size: x-large;
-        background-color: #E3170A;
-        color:white;
-        /*transform: translateX(600px);*/
+        border: none;
+        font-size: 16px;
+        
+       background-color: white;
+       text-decoration: underline;
         top: -30px;
-        width: 400px;
+        width: 300px;
         height: 100px;
         margin: 25px;
         
@@ -818,10 +832,10 @@ footer li {
     #b2 {
         font-size: x-large;
         background-color: #8ACFE6;
-        color: white;
+        color: black;
         /*transform: translateX(600px);*/
         
-        width: 400px;
+        width: 300px;
         height: 100px;
         margin: 25px;
     }
@@ -889,14 +903,13 @@ footer li {
         width: 100%;
         height: 500px;
         display: flex;
-        flex-wrap: wrap;
+        gap: 55px;
         flex-direction: column;
+        
         
     }
     
-    .square1 {
-       
-    }
+ 
     
     .square-img {
         width: 480px;
@@ -906,13 +919,14 @@ footer li {
     .square1-text {
         width: 480px;
         height: 300px;
+       
     }
     
     
     .flex-container2 {
     
         display: flex;
-        justify-content: center;
+       flex-direction: column;
     }
     
     .square2 {
@@ -923,16 +937,19 @@ footer li {
     .square2-text {
         width: 480px;
         height: 300px;
+        display: flex;
+        
         
     }
     .square2-img {
         width: 480px;
         height: 300px;
+        
     }
     
     .flexbtn {
         display: flex;
-        justify-content: center;
+        justify-content: baseline;
         align-items: center;
     }
     
@@ -947,6 +964,9 @@ footer li {
         font-size: 24px;
         line-height: 28px;
         text-align: center;
+        flex-direction: column;
+        justify-content: baseline;
+        flex-direction: column;
         
         
         
