@@ -22,6 +22,16 @@ a{
     color: white;
     background-color: #011827;
 }
+
+.hamburger {
+    display: none;
+}
+
+.popup-menu ul {
+    display: none;
+   list-style-type: none;
+}
+
 .esc {
     width: 150px;
     height: 120px;
@@ -567,12 +577,101 @@ html{
            background-color: #011827;
            width: 100%;
            
+           
+
+           
        }
+
 
        header{
            display: flex;
            width: 100%;
+           
+           flex-direction: row;
        }
+
+       
+      
+
+       .hamburger {
+       
+        display: flex;
+        margin: 10px;
+        transform: translateX(100px);
+        margin: 10px;
+        gap: 10px;     
+        border: none;
+        width: 41px;
+        height: 25px;        
+        top: 34px;
+        
+        
+        border: 6px solid #FFFFFF;
+           
+       }
+
+       .modal {
+           display: none;
+           
+           z-index: 1;
+           width: 100%;
+           height: 100%;
+           overflow: auto;
+           text-align: center;
+           margin: 10px;
+       }
+
+
+      .modal-content {
+        
+        background-color: #011827;
+        position: absolute;
+        animation: popup-fadein 300ms;
+        width: 100%;
+        height: 100%;
+        list-style-type: none;
+    }
+
+    .modal-content ul {
+        list-style-type: none;
+    }
+
+    .modal-content > li{
+        
+        background-color: #011827;
+        position: absolute;
+        width: 100%;                     
+        animation: popup-fadein 300ms;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        
+        color: #FFFFFF;
+    }
+
+
+    @keyframes popup-fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+       
+         
+       }
+
+       .close {
+        background-color: #011827;
+        color: #ffffff;
+        font-size: 50px;
+        float: right;
+        border: none;
+        padding: 25px;
+    }
 
        header h1 {
            display: flex;
@@ -584,13 +683,13 @@ html{
        }
 
        .esc {
-           display: block;
-           align-items: center;          
-           height: 82px;
-           width: 100px;
-           margin: 10px;
-       }
-    
+        display: block;
+        align-items: center;          
+        height: 82px;
+        width: 100px;
+        margin: 10px;
+    }
+ 
        
        nav ul{
            
